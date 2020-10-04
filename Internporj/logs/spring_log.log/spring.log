@@ -1,0 +1,36 @@
+2020-08-12 20:25:16.087  INFO 584 --- [restartedMain] com.intern.test.InternporjApplication    : Starting InternporjApplication on iStock-svr with PID 584 (D:\Intern\WorkSpace\Internporj\target\classes started by Nay in D:\Intern\WorkSpace\Internporj)
+2020-08-12 20:25:16.095  INFO 584 --- [restartedMain] com.intern.test.InternporjApplication    : No active profile set, falling back to default profiles: default
+2020-08-12 20:25:16.157  INFO 584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-08-12 20:25:16.157  INFO 584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-08-12 20:25:17.197  INFO 584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-08-12 20:25:17.267  INFO 584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58ms. Found 1 JPA repository interfaces.
+2020-08-12 20:25:17.825  INFO 584 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$dc453fc9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-08-12 20:25:17.873  INFO 584 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2020-08-12 20:25:18.413  INFO 584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-08-12 20:25:18.426  INFO 584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-08-12 20:25:18.427  INFO 584 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-08-12 20:25:18.565  INFO 584 --- [restartedMain] o.a.c.c.C.[.[localhost].[/intern]        : Initializing Spring embedded WebApplicationContext
+2020-08-12 20:25:18.565  INFO 584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2408 ms
+2020-08-12 20:25:18.845  INFO 584 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-08-12 20:25:18.892  INFO 584 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-08-12 20:25:18.939  INFO 584 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.18.Final
+2020-08-12 20:25:19.138  INFO 584 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-08-12 20:25:19.318  INFO 584 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-08-12 20:25:19.698  INFO 584 --- [task-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-08-12 20:25:19.716  INFO 584 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2020-08-12 20:25:20.465  INFO 584 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-08-12 20:25:20.475  INFO 584 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 20:25:20.803  INFO 584 --- [task-2] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-08-12 20:25:20.997  WARN 584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-08-12 20:25:22.134  INFO 584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/intern'
+2020-08-12 20:25:22.136  INFO 584 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-08-12 20:25:22.203  INFO 584 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-08-12 20:25:22.211  INFO 584 --- [restartedMain] com.intern.test.InternporjApplication    : Started InternporjApplication in 6.695 seconds (JVM running for 7.932)
+2020-08-12 20:25:26.396  INFO 584 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/intern]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-08-12 20:25:26.396  INFO 584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-08-12 20:25:26.452  INFO 584 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 55 ms
+2020-08-12 20:47:42.975  INFO 584 --- [RMI TCP Connection(26)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-08-12 20:47:43.116  INFO 584 --- [RMI TCP Connection(26)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-08-12 20:47:43.121  INFO 584 --- [RMI TCP Connection(26)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-08-12 20:47:43.124  INFO 584 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-08-12 20:47:43.141  INFO 584 --- [RMI TCP Connection(26)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
