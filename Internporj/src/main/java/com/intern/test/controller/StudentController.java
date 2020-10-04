@@ -21,7 +21,7 @@ public class StudentController {
 	@Autowired
 	StudentService studentService;
 	
-	
+	//Test
 	@GetMapping (value = "/student")
 	public List<Student> getStudent() {
 		return studentService.getStudent();
